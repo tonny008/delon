@@ -14,7 +14,7 @@
          src="{{ i.value }}"
          class="sidebar-nav__item-icon sidebar-nav__item-img">
     <i *ngSwitchDefault
-       class="sidebar-nav__item-icon {{ i.value }}"></i>
+       class="sidebar-nav__item-icon {{ i.value || i }}"></i>
   </ng-container>
 </ng-template>
 <ul class="sidebar-nav">
